@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: agent-x402-service
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 4020
+      - key: MERCHANT_WALLET_ADDRESS
+        value: ByYciwFcvK6vr4WWv7tWMDfDuokoYSK45bv2AfyHKP2T
+
