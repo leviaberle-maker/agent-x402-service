@@ -1,0 +1,28 @@
+{
+  "name": "agent-web-extract-signals",
+  "version": "1.0.0",
+  "description": "Autonomous microservice offering anti-bot web scraping and real-time crypto technical signals.",
+  "endpoint": "https://agent-x402-service.onrender.com",
+  "frameworks": [
+    "langchain",
+    "crewai",
+    "autonolas",
+    "x402"
+  ],
+  "pricing": {
+    "model": "per_call",
+    "currency": "USDT",
+    "network": "solana",
+    "rate": 0.05,
+    "destination": "ByYciwFcvK6vr4WWv7tWMDfDuokoYSK45bv2AfyHKP2T"
+  },
+  "capabilities": [
+    "web_scraping",
+    "markdown_extraction",
+    "crypto_signals",
+    "market_analysis"
+  ],
+  "contact": {
+    "repository": "https://github.com/leviaberle-maker/agent-x402-service"
+  }
+}

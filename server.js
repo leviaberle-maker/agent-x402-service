@@ -19,6 +19,15 @@ const solanaPaymentGate = createSolanaX402Middleware({
 });
 
 // 1. Public Health & Discovery Endpoint
+// Standardized Agent & x402 Discovery Manifests
+app.get(['/x402.json', '/.well-known/x402.json'], (req, res) => {
+  res.sendFile(require('path').join(__dirname, 'x402.json'));
+});
+
+app.get(['/agent.json', '/.well-known/agent.json'], (req, res) => {
+  res.sendFile(require('path').join(__dirname, 'agent.json'));
+});
+
 app.get('/', (req, res) => {
   res.json({
     name: "AgentWebExtract & Signal API",
