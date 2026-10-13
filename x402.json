@@ -19,6 +19,15 @@
         "recipient": "ByYciwFcvK6vr4WWv7tWMDfDuokoYSK45bv2AfyHKP2T",
         "decimals": 6,
         "default_cost": "0.05"
+      },
+      {
+        "type": "crypto",
+        "network": "solana",
+        "asset": "USDC",
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "recipient": "ByYciwFcvK6vr4WWv7tWMDfDuokoYSK45bv2AfyHKP2T",
+        "decimals": 6,
+        "default_cost": "0.05"
       }
     ]
   },

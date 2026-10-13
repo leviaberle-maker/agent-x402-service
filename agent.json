@@ -14,7 +14,11 @@
     "currency": "USDT",
     "network": "solana",
     "rate": 0.05,
-    "destination": "ByYciwFcvK6vr4WWv7tWMDfDuokoYSK45bv2AfyHKP2T"
+    "destination": "ByYciwFcvK6vr4WWv7tWMDfDuokoYSK45bv2AfyHKP2T",
+    "accepted_currencies": [
+      "USDT",
+      "USDC"
+    ]
   },
   "capabilities": [
     "web_scraping",
